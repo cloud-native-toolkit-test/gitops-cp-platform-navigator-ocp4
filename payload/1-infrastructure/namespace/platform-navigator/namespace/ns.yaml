@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: platform-navigator
+  annotations:
+    argocd.argoproj.io/sync-wave: "-30"
+---
+apiVersion: operators.coreos.com/v1
+kind: OperatorGroup
+metadata:
+  name: platform-navigator-operator-group
+  namespace: platform-navigator
+  annotations:
+    argocd.argoproj.io/sync-wave: "-20"
+spec:
+  targetNamespaces:
+    - platform-navigator
+---
