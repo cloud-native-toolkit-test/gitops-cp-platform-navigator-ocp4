@@ -4,3 +4,4 @@ resources:
   - base/namespace-gitops-cp-platform-navigator.yaml
   - base/namespace-platform-navigator.yaml
   - base/openshift-marketplace-ibm-catalogs.yaml
+  - base/platform-navigator-ibm-entitlement-key.yaml
