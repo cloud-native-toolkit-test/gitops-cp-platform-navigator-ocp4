@@ -1,0 +1,12 @@
+"ibm_platform_navigator_instance":
+  "name": "integration-navigator"
+  "spec":
+    "license":
+      "accept": true
+      "license": "L-RJON-C7QG3S"
+    "mqDashboard": true
+    "replicas": 2
+    "storage":
+      "class": "portworx-rwx-gp-sc"
+    "version": "2021.4.1"
+
